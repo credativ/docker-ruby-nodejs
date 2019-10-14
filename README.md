@@ -1,4 +1,3 @@
-
 # ruby with nodejs
 
 This docker image builds on top of the official ruby containers
