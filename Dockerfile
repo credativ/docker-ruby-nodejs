@@ -6,5 +6,5 @@ COPY nodejs.sources.list /etc/apt/sources.list.d
 COPY nodesource.gpg.key /root
 RUN apt-key add /root/nodesource.gpg.key
 
-RUN apt-get update && apt-get -y install nodejs && apt-get -y clean
+RUN apt-get update && apt-get -y install nodejs npm && apt-get -y clean
 RUN npm install yarn -g
